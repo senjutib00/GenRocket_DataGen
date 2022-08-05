@@ -82,7 +82,7 @@ import com.microsoft.schemas.office.visio.x2012.main.CellType;
 			
 		
 		public static void gen() throws IOException {
-	        String scenario = "var\\lib\\jenkins\\workspace\\Genrocke_java\\GenRocket\\Datatables\\HCVImportFileScenario.grs";
+	        String scenario = "C:\\Users\\sbhadra\\Eclipse_Workspace\\GenRocket\\Datatables\\HCVImportFileScenario.grs";
 	        String domainName = "";
 	        EngineAPI api = new EngineManual();
 	        
@@ -98,7 +98,7 @@ import com.microsoft.schemas.office.visio.x2012.main.CellType;
 	                                     }
 	                                     else if(domainsName.size()==0) {
 	                                 }
-	              api.receiverParameterSet(domainName, "ExcelFileReceiver", "path", "var\\lib\\jenkins\\workspace\\Genrocke_java\\GenRocket\\Datatables");                                   
+	              api.receiverParameterSet(domainName, "ExcelFileReceiver", "path", "C:\\Users\\sbhadra\\Eclipse_Workspace\\GenRocket\\Datatables");                                   
 	              api.receiverParameterSet(domainName, "ExcelFileReceiver", "fileName", "Backup");       
 	              api.receivers(domainName);
 	              // Run Scenario
@@ -117,7 +117,7 @@ import com.microsoft.schemas.office.visio.x2012.main.CellType;
 
 			public static void copyDataInExcel(){
 
-		        String strSourceWb = "var\\lib\\jenkins\\workspace\\Genrocke_java\\GenRocket\\Datatables\\Backup.xlsx";
+		        String strSourceWb = "C:\\Users\\sbhadra\\Eclipse_Workspace\\GenRocket\\Datatables\\Backup.xlsx";
 		        String strSourceSheet = "GenRocket";
 		        String strDesWb = "C:\\Users\\sbhadra\\Eclipse_Workspace\\GSNAP_Test_Run - Copy\\Datatables\\Automated Scripts.xls";
 		        String strDesSheet = "Automated Test Data";
