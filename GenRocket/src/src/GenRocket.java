@@ -64,8 +64,6 @@ import com.microsoft.schemas.office.visio.x2012.main.CellType;
  * 
  * @author Cognizant
  */
-
-
 	/**
 	 * The entry point of the test batch execution <br>
 	 * Exits with a value of 0 if the test passes and 1 if the test fails
